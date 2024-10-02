@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function startTransition() {
         if (!intervalId) {
             console.log("Starting transition");
-            intervalId = setInterval(toggleBooks, 20000);
+            intervalId = setInterval(toggleBooks, 4000);
         }
     }
 

@@ -413,6 +413,17 @@ button:not(:disabled) {
     }
 }
 
+@media(max-width:767.9px) {
+    .video .mobile_hero_image_video {
+        margin-top: 24rem;
+    }
+
+    .subjects_btn .subject_covered_section {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    }
+}
+
 @media(max-width:576px) {
     .navbar-brand .logo {
         max-width: 6rem;
@@ -491,5 +502,26 @@ button:not(:disabled) {
 @media(max-width:576px) {
     .show-five .mobile_hero_image_video {
         margin-top: 10rem;
+    }
+
+    .video .mobile_hero_image_video {
+        margin-top: 20rem;
+    }
+}
+
+
+@media(max-width:392px) {
+    .show-five .mobile_hero_image_video {
+        margin-top: 12rem;
+    }
+}
+
+@media(max-width:360px) {
+    .show-five .mobile_hero_image_video {
+        margin-top: 13rem;
+    }
+
+    .video .mobile_hero_image_video {
+        margin-top: 22rem;
     }
 }
